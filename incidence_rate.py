@@ -4,7 +4,7 @@ from pandas import read_excel, DataFrame
 
 excel_file = "transparenta_29_martie_2021.xlsx"
 # path to folder where the excel file is located
-# & where .csv & .sqlite3 fieles will be saved
+# & where the.sqlite3 file will be saved
 working_dir = "./"
 columns_to_keep = ["Judet", "UAT", "2021-03-29"]
 table_name = "incidenta"
